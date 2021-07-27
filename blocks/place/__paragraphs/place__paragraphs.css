@@ -1,0 +1,10 @@
+.place__paragraphs {
+  margin: 0;
+  color: white;
+}
+
+@media all and (max-width: 425px) {
+  .place__paragraphs {
+    margin: 0 16px;
+  }
+}
