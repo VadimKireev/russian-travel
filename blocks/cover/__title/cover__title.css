@@ -7,4 +7,6 @@
   font-weight: 900;
   color: white;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
