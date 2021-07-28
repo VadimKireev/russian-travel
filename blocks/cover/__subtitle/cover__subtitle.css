@@ -8,3 +8,10 @@
   position: relative;
   z-index: 1;
 }
+
+@media all and (max-width: 425px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

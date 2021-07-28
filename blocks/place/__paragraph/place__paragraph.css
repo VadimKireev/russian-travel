@@ -12,3 +12,9 @@
     padding-bottom: 25px;
   }
 }
+
+@media all and (max-width: 425px) {
+  .place__paragraph:last-child {
+    padding-bottom: 0;
+  }
+}
