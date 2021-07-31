@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
     padding-top: 8px;
     padding-left: 24px;
