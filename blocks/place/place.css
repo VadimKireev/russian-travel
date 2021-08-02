@@ -1,7 +1,6 @@
 .place {
   margin: 0 auto;
   display: grid;
-  padding-bottom: 80px;
   grid-template-columns: 460px 484px;
   gap: 48px 40px;
 }
@@ -16,7 +15,6 @@
 @media screen and (max-width: 1023px) {
   .place {
     column-gap: 28px;
-    padding-bottom: 73px;
     max-width: 720px;
     grid-template-columns: 340px 352px;
   }
@@ -30,7 +28,6 @@
 
 @media all and (max-width: 425px) {
   .place {
-    padding-bottom: 18px;
     row-gap: 32px;
     max-width: 320px;
     grid-template-columns: 1fr;
