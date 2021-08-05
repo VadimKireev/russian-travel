@@ -20,16 +20,10 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .place {
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
-  }
-}
-
-@media all and (max-width: 425px) {
+@media all and (max-width: 767px) {
   .place {
     row-gap: 32px;
-    max-width: 320px;
+    min-width: 320px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, min-content);
   }
